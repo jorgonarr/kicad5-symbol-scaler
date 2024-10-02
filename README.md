@@ -21,15 +21,11 @@ Este script permite escalar automáticamente símbolos de una librería `.lib` d
 
 1. Clona el repositorio en tu máquina local:
 
-   \`\`\`bash
-   git clone https://github.com/jorgonarr/kicad5-symbol-scaler.git
-   \`\`\`
+   bash git clone https://github.com/jorgonarr/kicad5-symbol-scaler.git
 
 2. Navega al directorio del repositorio:
 
-   \`\`\`bash
-   cd kicad5-symbol-scaler
-   \`\`\`
+   bash cd kicad5-symbol-scaler
 
 #Sin terminal
 
@@ -41,13 +37,8 @@ Este script permite escalar automáticamente símbolos de una librería `.lib` d
 
 1. Ejecuta el script con Python:
 
-   #Linux / macOS
-   \`\`\`bash
-   python kicad5-symbol-scaler.py
-   \`\`\`
-
-   #Windows
-   \`\`\`python3 kicad5-symbol-scaler.py
+   `Linux / macOS / Windows`
+   bash python3 kicad5-symbol-scaler.py
 
 3. Introduce los datos solicitados:
    - Nombre del archivo de la librería `.lib` (Ej: `mi_libreria.lib`).
@@ -58,14 +49,12 @@ Este script permite escalar automáticamente símbolos de una librería `.lib` d
 
 ### Ejemplo de Entrada
 
-\`\`\`bash
 Introduce el nombre del archivo de la librería (ej: mi_libreria.lib): mi_libreria.lib
 Introduce el factor de escala (ej: 2 para duplicar el tamaño, 0.8 para reducirlo): 0.8
 Símbolos disponibles en mi_libreria.lib:
 - PIC16F84A-DIP
 - Resistor
 Introduce el nombre del símbolo que quieres escalar: PIC16F84A-DIP
-\`\`\`
 
 ### Resultado
 

@@ -22,7 +22,7 @@ Este script permite escalar automáticamente símbolos de una librería `.lib` d
 1. Clona el repositorio en tu máquina local:
 
    \`\`\`bash
-   git clone https://github.com/tu_usuario/kicad5-symbol-scaler.git
+   git clone https://github.com/jorgonarr/kicad5-symbol-scaler.git
    \`\`\`
 
 2. Navega al directorio del repositorio:
